@@ -84,10 +84,6 @@ public class Offer implements Serializable{
 	public void setCourse(Course course) {
 		this.course = course;
 	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 	
 	public List<Resource> getResources() {
 		return resources;
